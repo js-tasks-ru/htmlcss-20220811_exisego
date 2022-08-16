@@ -1,0 +1,41 @@
+html, a {
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+header {
+    background-color: red;
+}
+
+nav {
+    background-color: orange;
+    padding: 10px;
+}
+
+main {
+    background-color: green;
+}
+
+article {
+    background-color: blue;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+
+footer {
+    padding: 10px;
+    background-color: darkviolet;
+}
