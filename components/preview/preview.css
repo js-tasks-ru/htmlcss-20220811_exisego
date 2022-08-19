@@ -1,3 +1,5 @@
 .preview {
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
     background-color: var(--grey-5);
 }
