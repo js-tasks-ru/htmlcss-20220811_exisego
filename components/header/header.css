@@ -1,15 +1,13 @@
-.header, .footer {
-    font-family: 'Inter', sans-serif;
-    color: var(--black)
-}
-
 .header {
-    padding: 96px 610px 77px 160px;
+    padding: 96px 0 77px;
+    background-color: var(--white);
 }
 
 .header__title {
-    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
+    color: var(--black);
 }
