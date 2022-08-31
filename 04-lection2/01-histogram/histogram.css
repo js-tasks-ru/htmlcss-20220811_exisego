@@ -1,5 +1,4 @@
 .histogram {
-    margin: 0 400px;
     background-color: var(--white);
     box-sizing: border-box;
     border: 1px solid var(--grey-3);
@@ -34,7 +33,7 @@
     color: var(--black);
 }
 
-.histogram__links > a {
+.histogram__link {
     font-size: 16px;
     font-weight: 400;
     color: var(--blue);
