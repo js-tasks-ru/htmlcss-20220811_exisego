@@ -1,8 +1,4 @@
 /* Стилизация аккордеона */
-.accordion {
-    padding: 0 400px;
-}
-
 .accordion__item {
     box-sizing: border-box;
     border: 1px solid var(--grey-3);
