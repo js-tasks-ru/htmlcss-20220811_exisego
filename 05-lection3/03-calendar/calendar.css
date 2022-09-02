@@ -36,9 +36,6 @@
 }
 
 .calendar__item {
-    width: 36px;
-    height: 36px;
-
     display: flex;
     justify-content: center;
     align-items: center;
