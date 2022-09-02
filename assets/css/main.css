@@ -6,10 +6,12 @@
 @import '../../components/container/container.css';
 @import '../../components/sidebar/sidebar.css';
 @import '../../components/page/page.css';
+@import '../../components/component/component.css';
 
 :root {
     --white: #ffffff;
     --black: #212429;
+    --black-2: #000000;
     --pink: #F784AD;
     --purple: #7048E8;
     --purple-2: #5028C6;
@@ -21,6 +23,7 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #F9FAFC;
+    --orange: #D84910;
 
     --error: var(--red);
     --success: var(--blue);
@@ -30,6 +33,10 @@
 
     --primary-hover: var(--blue-2);
     --secondary-hover: var(--purple-2);
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
