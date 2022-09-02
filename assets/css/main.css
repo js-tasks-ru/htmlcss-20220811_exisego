@@ -4,6 +4,8 @@
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/page/page.css';
 
 :root {
     --white: #ffffff;

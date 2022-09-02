@@ -1,0 +1,12 @@
+.sidebar {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.sidebar__title {
+    color: var(--black);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
