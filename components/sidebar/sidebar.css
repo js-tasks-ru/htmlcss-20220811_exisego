@@ -1,0 +1,34 @@
+.sidebar {
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar__title {
+    color: var(--black-2);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 16px;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sidebar__item {
+    color: var(--black);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.sidebar__item:hover {
+    color: var(--orange);
+}

@@ -1,13 +1,18 @@
 @import '../fonts/fonts.css';
 
 @import '../../components/header/header.css';
-@import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
+@import '../../components/preview/preview.css';
 @import '../../components/container/container.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/page/page.css';
+@import '../../components/component/component.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
     --black: #212429;
+    --black-2: #000000;
     --pink: #F784AD;
     --purple: #7048E8;
     --purple-2: #5028C6;
@@ -22,6 +27,7 @@
     --grey-4: #495057;
     --grey-5: #F9FAFC;
     --grey-6: #90A0B7;
+    --orange: #D84910;
 
     --error: var(--red);
     --success: var(--blue);
@@ -31,6 +37,10 @@
 
     --primary-hover: var(--blue-2);
     --secondary-hover: var(--purple-2);
+}
+
+html, body {
+    height: 100%;
 }
 
 body {

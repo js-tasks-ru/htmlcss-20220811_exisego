@@ -4,3 +4,10 @@
     padding: 68px 0 92px;
     background-color: var(--grey-5);
 }
+
+.preview__inner {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
