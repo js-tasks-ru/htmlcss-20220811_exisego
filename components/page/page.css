@@ -1,0 +1,15 @@
+.page {
+    background-color: var(--grey-5);
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 36px;
+}
+
+.page__inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-row-gap: 38px;
+    grid-column-gap: 56px;
+    background-color: var(--grey-5);
+}
