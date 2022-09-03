@@ -42,3 +42,8 @@
 .tooltip__trigger:hover ~ .tooltip__text {
     display: block;
 }
+
+.tooltip__icon {
+    width: 24px;
+    height: 24px;
+}
