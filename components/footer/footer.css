@@ -34,9 +34,3 @@
     text-transform: uppercase;
     color: var(--grey-3);
 }
-
-@media screen and (max-width: 450px) {
-    .footer {
-        display: none;
-    }
-}

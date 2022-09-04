@@ -1,6 +1,7 @@
 .header {
     padding-bottom: 77px;
     background-color: var(--white);
+    display: flex;
 }
 
 .header__wrapper {
@@ -21,18 +22,14 @@
     color: var(--black);
 }
 
-.header__logo {
-    padding-left: 4px;
-}
-
 .header_mini {
     padding: 24px 0;
     background-color: var(--grey-5);
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
     .header {
-        padding: 16px 16px 69px;
+        padding: 0 16px;
     }
 
     .header__wrapper {
@@ -46,5 +43,15 @@
         font-size: 28px;
         line-height: 38px;
         color: var(--grey-4);
+    }
+
+    .header__content {
+        display: flex;
+        padding: 16px 0;
+        justify-content: center;
+    }
+
+    .header_mini {
+        margin: 0 auto;
     }
 }
