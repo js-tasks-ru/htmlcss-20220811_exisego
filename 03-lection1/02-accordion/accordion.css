@@ -38,11 +38,6 @@
     margin: 0;
 }
 
-.accordion__icon {
-    width: 25px;
-    height: 25px;
-}
-
 .accordion__item[open] .accordion__icon {
     transform: rotate(180deg);
 }
