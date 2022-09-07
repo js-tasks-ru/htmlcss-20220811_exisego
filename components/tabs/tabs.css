@@ -1,0 +1,35 @@
+.tabs__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+
+.tabs__scroller {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.tabs__item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+    padding-bottom: 8px;
+}
+
+.tabs__input_all:checked ~ .tabs__scroller .tabs__item_all {
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+
+.tabs__input_complex:checked ~ .tabs__scroller .tabs__item_complex {
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
+
+.tabs__input_simple:checked ~ .tabs__scroller .tabs__item_simple {
+    border-bottom: 5px solid var(--black);
+    color: var(--black);
+}
