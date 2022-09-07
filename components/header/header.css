@@ -1,6 +1,15 @@
 .header {
-    padding: 96px 0 77px;
+    padding-bottom: 77px;
     background-color: var(--white);
+    display: flex;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 24px;
 }
 
 .header__title {
@@ -16,4 +25,33 @@
 .header_mini {
     padding: 24px 0;
     background-color: var(--grey-5);
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        padding: 0 16px;
+    }
+
+    .header__wrapper {
+        padding-top: 0;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
+
+    .header__content {
+        display: flex;
+        padding: 16px 0;
+        justify-content: center;
+    }
+
+    .header_mini {
+        margin: 0 auto;
+    }
 }

@@ -3,7 +3,6 @@
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    row-gap: 36px;
 }
 
 .page__inner {
@@ -12,4 +11,11 @@
     grid-row-gap: 38px;
     grid-column-gap: 56px;
     background-color: var(--grey-5);
+}
+
+@media screen and (max-width: 450px) {
+    .page__inner {
+        grid-template-columns: auto;
+        height: 100%;
+    }
 }
