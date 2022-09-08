@@ -2,3 +2,13 @@
     width: 25px;
     height: 25px;
 }
+
+.icon_success {
+    display: none;
+    color: var(--primary);
+}
+
+.icon_error {
+    display: none;
+    color: var(--error);
+}
