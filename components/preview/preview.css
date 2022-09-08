@@ -11,3 +11,13 @@
     flex-flow: row wrap;
     gap: 30px;
 }
+
+@media screen and (max-width: 450px){
+    .preview {
+        padding: 22px 0;
+    }
+
+    .preview__inner {
+        gap: 16px;
+    }
+}

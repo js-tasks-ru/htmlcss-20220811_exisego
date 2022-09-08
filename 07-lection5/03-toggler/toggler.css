@@ -1,0 +1,71 @@
+.toggle {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle__state {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.toggle__control {
+    width: 52px;
+    height: 28px;
+    box-sizing: border-box;
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 16px;
+    position: relative;
+}
+
+.toggle__control::after {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 12px);
+    transform: translate(-50%, -50%);
+    background-color: var(--grey-2);
+    border-radius: 50%;
+    content: "";
+}
+
+.toggle__label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.toggle__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__label {
+    text-decoration: underline;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control::after {
+    left: calc(50% + 12px);
+    background-color: var(--white);
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+    background-color: var(--grey-2);
+    border-color: var(--grey-2);
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control::after {
+    background-color: var(--grey-3);
+    opacity: 0.25;
+}

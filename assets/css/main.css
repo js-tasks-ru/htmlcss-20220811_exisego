@@ -9,6 +9,7 @@
 @import '../../components/component/component.css';
 @import '../../components/card/card.css';
 @import '../../components/tabs/tabs.css';
+@import '../../components/icon/icon.css';
 
 :root {
     --white: #ffffff;
@@ -17,6 +18,7 @@
     --pink: #F784AD;
     --purple: #7048E8;
     --purple-2: #5028C6;
+    --purple-3: #A0B1F5;
     --blue: #4263EB;
     --blue-2: #2342C0;
     --blue-3: #334D6E;
@@ -26,6 +28,7 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #F9FAFC;
+    --grey-6: #90A0B7;
     --orange: #D84910;
 
     --error: var(--red);

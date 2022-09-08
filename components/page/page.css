@@ -12,3 +12,10 @@
     grid-column-gap: 56px;
     background-color: var(--grey-5);
 }
+
+@media screen and (max-width: 450px) {
+    .page__inner {
+        grid-template-columns: auto;
+        height: 100%;
+    }
+}
