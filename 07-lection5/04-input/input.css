@@ -56,3 +56,11 @@
 .input_error > .input__wrapper .input__form:focus {
     border-color: var(--primary);
 }
+
+.input_success > .input__wrapper .icon_success {
+    display: block;
+}
+
+.input_error > .input__wrapper .icon_error {
+    display: block;
+}

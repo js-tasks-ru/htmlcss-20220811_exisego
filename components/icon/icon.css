@@ -4,9 +4,11 @@
 }
 
 .icon_success {
+    display: none;
     color: var(--primary);
 }
 
 .icon_error {
+    display: none;
     color: var(--error);
 }
