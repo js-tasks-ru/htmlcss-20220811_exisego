@@ -13,11 +13,20 @@
 <div class="page">
     <header class="header">
         <div class="container">
-            <div class="header__wrapper">
-                <img class="header__logo" src="assets/images/logo.svg" alt="Logo">
-                <h1 class="header__title">
-                    Reusable component library
-                </h1>
+            <h1 class="header__title">
+                Reusable component library
+            </h1>
+
+            <div class="tabs">
+                <input onchange="resetTabs()" class="tabs__input tabs__input_all" type="radio" name="tabs-header" id="#all-tab" checked>
+                <input onchange="selectTab('COMPLEX')" class="tabs__input tabs__input_complex" type="radio" name="tabs-header" id="#complex-tab">
+                <input onchange="selectTab('SIMPLE')" class="tabs__input tabs__input_simple" type="radio" name="tabs-header" id="#simple-tab">
+
+                <div class="tabs__scroller">
+                    <label class="tabs__item tabs__item_all" for="#all-tab">All components</label>
+                    <label class="tabs__item tabs__item_complex" for="#complex-tab">Complex</label>
+                    <label class="tabs__item tabs__item_simple" for="#simple-tab">Simple</label>
+                </div>
             </div>
         </div>
     </header>
@@ -26,14 +35,14 @@
         <div class="container">
             <div class="preview__inner">
 
-                <div class="card">
+                <div class="card preview__inner_simple">
                     <div class="card__preview">
                         <img src="assets/images/tooltip.png" alt="Tooltip" class="card__image">
                     </div>
                     <h2 class="card__title">Tooltip</h2>
                 </div>
 
-                <div class="card">
+                <div class="card preview__inner_complex">
                     <div class="card__preview">
                         <img src="assets/images/custom-form-elements.png" alt="Custom form elements"
                              class="card__image">
@@ -41,28 +50,28 @@
                     <h2 class="card__title">Custom form elements</h2>
                 </div>
 
-                <div class="card">
+                <div class="card preview__inner_complex">
                     <div class="card__preview">
                         <img src="assets/images/calendar.png" alt="Calendar" class="card__image">
                     </div>
                     <h2 class="card__title">Calendar</h2>
                 </div>
 
-                <div class="card">
+                <div class="card preview__inner_complex">
                     <div class="card__preview">
                         <img src="assets/images/modal-dialog.png" alt="Modal dialog" class="card__image">
                     </div>
                     <h2 class="card__title">Modal dialog</h2>
                 </div>
 
-                <div class="card">
+                <div class="card preview__inner_complex">
                     <div class="card__preview">
                         <img src="assets/images/histogram.png" alt="Histogram" class="card__image">
                     </div>
                     <h2 class="card__title">Histogram</h2>
                 </div>
 
-                <div class="card">
+                <div class="card preview__inner_simple">
                     <div class="card__preview">
                         <img src="assets/images/avatar.png" alt="Avatar" class="card__image">
                     </div>
@@ -87,5 +96,6 @@
         </div>
     </footer>
 </div>
+<script src="./components/tabs/tabSelector.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 .header {
-    padding-bottom: 77px;
+    padding: 96px 0 0 0;
     background-color: var(--white);
     display: flex;
 }
@@ -20,6 +20,7 @@
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
+    padding-bottom: 40px;
 }
 
 .header_mini {
